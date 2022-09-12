@@ -20,5 +20,4 @@ while True:
 for i in input_num:
     if num>num+i:
         max=num
-    else:
-        min=num
+    
