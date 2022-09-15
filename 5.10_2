@@ -22,5 +22,6 @@ while True:
 for i in num:
     max1 = int(max(input_num))
     min1 = int(min(input_num))
+    
 print(max1)
 print(min1)
