@@ -7,6 +7,7 @@ min1 = 0
 
 input_num = []
 
+
 while True:
     num = input("please input a number: ")
 
