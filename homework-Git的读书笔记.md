@@ -103,7 +103,7 @@ $ vi my.py
 ```
 5)运行新建文件
 ```
-python my.py
+$ python my.py
 ```
 6)后续一系列操作
 ```
