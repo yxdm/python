@@ -77,14 +77,15 @@ Git GUI：图形界面的Git，不建议初学者使用，尽量先熟悉常用�
 
 1）Git\etc\gitconfig  ：Git 安装目录下的 gitconfig       ——系统配置文件
 
-2）C:\Users\Administrator\ .gitconfig                   ——只适用于当前登录用户的配置
+2）C:\Users\Administrator\ .gitconfig                      ——只适用于当前登录用户的配置
 
 #### **(5)设置用户名与邮箱（用户标识，必要）**
 
  git config --global user.name "yxdm"  #名称
  git config --global user.email "2903818741.@qqcom" 
 
-### **2、GIT项目搭建** (克隆远程仓库)
+### **2、GIT项目搭建** 
+(克隆远程仓库)
 
 #### 1、设置本机绑定SSH公钥，实现免密码登录
 1)生成公私钥
