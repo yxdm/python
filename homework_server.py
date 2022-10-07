@@ -11,10 +11,10 @@ def server():
 	listenSocket.bind((IP,PORT))
 
 	listenSocket.listen(8)
-	print(f'           ɹ     {PORT} ˿ڵȴ  ͻ       ...')
+	print(f'{PORT} ')
 
 	dataSocket,addr =listenSocket.accept()
-	print('    һ   ͻ       :',addr)
+	print('',addr)
 
 	while True:
 		receved = dataSocket.recv(BUFLEN)
@@ -23,9 +23,9 @@ def server():
 			break
 
 		info = receved.decode()
-		print(f' յ  Է     Ϣ  {info}')
+		print(f'{info}')
 
-		dataSocket.send(f'    ˽  յ     Ϣ:{info}'.encode())
+		dataSocket.send(f':{info}'.encode())
 		
 
 	dataSocket.close()
