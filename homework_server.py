@@ -26,6 +26,7 @@ def server():
 		print(f' յ  Է     Ϣ  {info}')
 
 		dataSocket.send(f'    ˽  յ     Ϣ:{info}'.encode())
+		
 
 	dataSocket.close()
 	listenSocket.close()
